@@ -1,3 +1,19 @@
 = Board Notes
 
-...
+A long discussion thread about the BeagleBone AI-64 can be found in the https://forum.beagleboard.org/t/ai-64-discoveries-and-insights-megathread/34014[BeagleBone forum].
+
+== Boot flow
+
+The BeagleBone AI-64 makes use of the same boot flow as other J721E platforms.
+The boot flow is documented in the
+https://github.com/u-boot/u-boot/blob/master/doc/board/ti/j721e_evm.rst[U-Boot documentation]
+and in the
+https://software-dl.ti.com/processor-sdk-linux/esd/docs/06_03_00_106/linux/Foundational_Components_U-Boot.html[Texas Intstruments processor sdk for Linux].
+
+In order to boot the BeagleBone AI-64 requires the following files on the boot partition:
+
+* tiboot3.bin
+* sysfw.itb
+* tispl.bin
+* u-boot.img
+
