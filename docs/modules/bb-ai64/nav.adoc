@@ -1,1 +1,2 @@
-* xref:board-notes.adoc[]
+* xref:index.adoc[]
+** xref:board-notes.adoc[]
