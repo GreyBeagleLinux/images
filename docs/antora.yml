@@ -1,7 +1,7 @@
 name: gbl-boards
 version: ~
-title: Grey Beagle Linux images
+title: Grey Beagle Linux Images
 nav:
-- modules/ROOT/nav.adoc
-- modules/bbb/nav.adoc
-- modules/bb-ai64/nav.adoc
+  - modules/ROOT/nav.adoc
+  - modules/bbb/nav.adoc
+  - modules/bb-ai64/nav.adoc
